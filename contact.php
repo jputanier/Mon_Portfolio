@@ -11,10 +11,8 @@
         <?php require_once 'nav.php' ?>
     </header>
 
-    <main>
+    <main id="mainContact">
         <div class="bloc_contact">
-            <h1 class="contact">Contact</h1>
-
             <p class="contact">Envoyez moi un mail !</p>
 
             <form method="POST" action="#">

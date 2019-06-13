@@ -12,7 +12,7 @@
     </header>
 
     <main>
-        <h1>Expérience</h1>
+
     </main>
 
     <footer>
