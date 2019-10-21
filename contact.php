@@ -7,7 +7,7 @@
 </head>
 
 <body id="body_contact">
-    <header>
+    <header id="headerPages">
         <?php require_once 'nav.php' ?>
     </header>
 
@@ -31,7 +31,7 @@
 
     <footer>
     </footer>
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

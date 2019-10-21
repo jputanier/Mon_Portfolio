@@ -7,43 +7,65 @@
 </head>
 
 <body>
-    <header>
+    <header id="headerPages">
         <?php require_once 'nav.php' ?>  
     </header>
     <main id="mainComp">
-
-        <div id="progressbar">
-            <div id="html"><span>HTML/CSS</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="boot"><span>Bootstrap</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="bash"><span>Bash</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="js"><span>JavaScript</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="ajax"><span>Ajax/Json</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="php"><span>php</span></div>
-        </div>
-        <br>
-        <div id="progressbar">
-            <div id="laravel"><span>Laravel</span></div>
+            <div class="flex">
+                <img class="imgComp html_img" src="/img/html.svg"><img class="imgComp css_img" src="img/css.svg" alt="">
+                <p class="html pComp">HTML/CSS</p>
+                <div class="html-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="/img/bootstrap.svg">
+                <p class="pComp">Bootstrap</p>
+                <div class="bootstrap-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/js.svg">
+                <p class="pComp">JavaScript/Ajax</p>
+                <div class="js-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/node.svg">
+                <p class="pComp">Node.js</p>
+                <div class="node-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/php.svg">
+                <p class="pComp">PHP</p>
+                <div class="php-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/laravel.png">
+                <p class="pComp">Laravel</p>
+                <div class="laravel-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/mysql.svg">
+                <p class="pComp">MySQL</p>
+                <div class="mysql-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/wp.svg">
+                <p class="pComp">Wordpress</p>
+                <div class="wp-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/git.svg">
+                <p class="pComp">GitHub</p>
+                <div class="git-bar blue"></div>
+            </div>
+            <div class="flex">
+                <img class="imgComp" src="img/en.svg">
+                <p class="pComp">Anglais Technique</p>
+                <div class="en-bar blue"></div>
         </div>
     </main>
 
     <footer>
     </footer>
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
